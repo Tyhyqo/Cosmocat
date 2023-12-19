@@ -24,8 +24,8 @@ altitude_stat = list()
 
 rocket_climb = True
 
-while altitude() > 1200 or rocket_climb:
-    if rocket_climb and altitude() > 1200:
+while altitude() > 2000 or rocket_climb:
+    if rocket_climb and altitude() > 2000:
         rocket_climb = False
     met_stat.append(met())
     fuel_stat.append(fuel())
